@@ -9,6 +9,7 @@ import cv2
 # var for testing
 
 # images to query against
+# takes the images from the referenceImages folder and puts them in  list concatenating referenceImages/ to each file name
 img_spirit = ['referenceImages/'+file for file in os.listdir('referenceImages/') if file.endswith('.png')]
 
 # using ORB because it is not licensed

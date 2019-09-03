@@ -19,7 +19,7 @@ pip install numpy
 
 Dowload your operating system's version of Open-CV from https://opencv.org/
 
-Please read the comments in run_script.py to understand my thinking behind my choices.
+Please have referenceImages and queryImages in the same folder as the script and read the comments in run_script.py to understand my thinking behind my choices.
 
 ### Running Script
 Run python run_script.py in your terminal.
