@@ -7,8 +7,12 @@ import pandas as pd
 import cv2
 
 # var for testing
+
+# images to query against
 img_spirit = ['referenceImages/'+file for file in os.listdir('referenceImages/') if file.endswith('.png')]
-orb = cv2.ORB_create(nfeatures=1500)
+
+# using ORB because it is not licensed
+orb = cv2.ORB_create(nfeatures=1500) # using 1500 features instead of the default 500
 
 def build_image_df(orb, img_spirit):
     """
