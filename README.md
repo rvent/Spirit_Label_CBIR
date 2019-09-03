@@ -24,3 +24,5 @@ Please have referenceImages and queryImages in the same folder as the script and
 ### Running Script
 Run python run_script.py in your terminal.
 
+#### Note: If your computer can handle it, change the nfeatures to 5000 for better results. Changing to 5000 took quite some time over 20 minutes to complete.
+
